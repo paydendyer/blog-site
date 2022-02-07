@@ -2,6 +2,7 @@
   <head>
     <link rel='stylesheet' href='styles.css'>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="bootstrap.css" />
     <meta content='width=device-width, initial-scale=1' name='viewport'>
   </head>
   <body>
@@ -40,30 +41,55 @@
         </div>
       </div>
     </header>
-
+ 
     <!-- MAIN CONTENT -->
-    <div class='main'>
+    <div class='main'>   
       <section class='spotlight-container'>
-        <ul class='spotlight-list'>
-          <li class='spotlight-item'>
-            <div class='spotlight-item-inner'>
-              <a class='spotlight-image-link' href='https://www.freecodecamp.org/news/freelance-web-developer-guide/' target="_blank">
-                <img src='https://www.freecodecamp.org/news/content/images/size/w2000/2021/06/Hit-with-money.jpg'/>
-              </a>
-              <div class='post-info'>
-                <span class='post-tag'>career development</span>
-                <h2 class='post-title primary-text-color'>
-                  <a href="https://www.freecodecamp.org/news/freelance-web-developer-guide/" target="_blank">The Complete Freelance Web Developer Guide</a>
-                </h2>
-                <div class='post-meta'>
-                  <span class='post-author primary-text-color'>
-                    <a>FreeCodeCamp</a>
-                  </span>
-                  <span class='post-date secondary-text-color'>Jan. 22, 2020</span>
-                </div>
-              </div>
+        <div class="card" style="width: 18rem;">
+          <img class="card-img-top" src="https://www.freecodecamp.org/news/content/images/size/w2000/2021/06/Hit-with-money.jpg" alt="Card image cap" height="190px">
+          <div class="card-body">
+            <span class='post-tag'>career development</span>
+            <h5 class="card-title pt-2">The Complete Freelance Web Developer Guide</h5>
+            <p class="card-text">A great guide to making money through freelancing programming jobs.</p>
+            <a href="https://www.freecodecamp.org/news/freelance-web-developer-guide/" target="_blank" class="btn btn-primary">Read More</a>
+            <div class='post-meta'>
+              <span class='post-author primary-text-color'>
+                <a>FreeCodeCamp</a>
+              </span>
+              <span class='post-date secondary-text-color'>Jan. 22, 2020</span>
             </div>
-          </li>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img class="card-img-top" src="https://cdn-media-2.freecodecamp.org/w1280/5f9c9dfa740569d1a4ca3aaf.jpg" alt="Card image cap" height="190px">
+          <div class="card-body">
+            <span class='post-tag'>projects</span>
+            <h5 class="card-title pt-2">Build a Tip Calculator</h5>
+            <p class="card-text">Build a Tip Calculator with HTML, CSS, & JS that calculates a tip based on the percentage of the total bill.</p>
+            <a href="https://www.freecodecamp.org/news/how-to-build-a-tip-calculator-with-html-css-and-javascript/" target="_blank" class="btn btn-primary">Read More</a>
+            <div class='post-meta'>
+              <span class='post-author primary-text-color'>
+                <a>FreeCodeCamp</a>
+              </span>
+              <span class='post-date secondary-text-color'>April 2, 2021</span>
+            </div>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img class="card-img-top" src="https://i1.wp.com/fribly.com/wp-content/uploads/2017/10/Grid-Garden-A-Game-for-Learning-CSS-Grid.png?fit=2335%2C1254&ssl=1" alt="Card image cap" height="190px">
+          <div class="card-body">
+            <span class='post-tag'>learning to code</span>
+            <h5 class="card-title pt-2">CSS Grid Garden</h5>
+            <p class="card-text">A game for learning CSS grid layout 🥕</p>
+            <a href="https://cssgridgarden.com/" target="_blank" class="btn btn-primary">Read More</a>
+            <div class='post-meta'>
+              <span class='post-author primary-text-color'>
+                <a>CSS Grid Garden</a>
+              </span>
+              <span class='post-date secondary-text-color'>Jul 22, 2020</span>
+            </div>
+          </div>
+        </div>
           <li class='spotlight-item-sm'>
             <div class='content-item-image-container'>
               <span class='post-tag'>learning to code</span>
@@ -87,25 +113,6 @@
               </a>
             </div>
           </li>
-          <li class='spotlight-item'>
-            <div class='spotlight-item-inner'>
-              <a class='spotlight-image-link' href='#'>
-                <img src='https://cdn-media-2.freecodecamp.org/w1280/5f9c9dfa740569d1a4ca3aaf.jpg'/>
-              </a>
-              <div class='post-info'>
-                <span class='post-tag'>projects</span>
-                <h2 class='post-title primary-text-color'>
-                  <a href="https://www.freecodecamp.org/news/how-to-build-a-tip-calculator-with-html-css-and-javascript/" target="_blank">Build a Tip Calculator</a>
-                </h2>
-                <div class='post-meta'>
-                  <span class='post-author primary-text-color'>
-                    <a>FreeCodeCamp</a>
-                  </span>
-                  <span class='post-date secondary-text-color'>April 2, 2021</span>
-                </div>
-              </div>
-            </div>
-          </li>
           <li class='spotlight-item-sm'>
             <div class='content-item-image-container'>
               <span class='post-tag'>learning to code</span>
@@ -127,25 +134,6 @@
               <a href='#'>
                 <button class='btn read-more'>Read More</button>
               </a>
-            </div>
-          </li>
-          <li class='spotlight-item'>
-            <div class='spotlight-item-inner'>
-              <a class='spotlight-image-link' href='#'>
-                <img src='https://i1.wp.com/fribly.com/wp-content/uploads/2017/10/Grid-Garden-A-Game-for-Learning-CSS-Grid.png?fit=2335%2C1254&ssl=1'/>
-              </a>
-              <div class='post-info'>
-                <span class='post-tag'>learning to code</span>
-                <h2 class='post-title primary-text-color'>
-                  <a href="https://cssgridgarden.com/" target="_blank">CSS Grid Garden</a>
-                </h2>
-                <div class='post-meta'>
-                  <span class='post-author primary-text-color'>
-                    <a>Codecademy</a>
-                  </span>
-                  <span class='post-date secondary-text-color'>July 22, 2020</span>
-                </div>
-              </div>
             </div>
           </li>
           <li class='spotlight-item-sm'>
