@@ -1,5 +1,5 @@
 body {
-  background-color: #FFF;
+  background-color: #D3C4E3 !important;
   display: flex;
   flex: 1;
   font-family: 'Source Sans Pro', sans-serif;
@@ -40,7 +40,7 @@ nav {
 }
 
 nav a {
-  color: #000;
+  color: #D3C4E3;
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 500;
   margin-left: 12px;
@@ -83,15 +83,14 @@ ul {
 }
 
 .main {
-  background-color: #fff;
   height: 100%;
-  padding-top: 75px;
+  padding-top: 3%;
   width: 100%;
 }
 
 /* SPOTLIGHT CONTENT */
 .spotlight-container {
-  background-color: rgba(23, 23, 224, .7);;
+  background-color: slateblue;
   box-sizing: border-box;
   height: auto;
   padding: 30px 0;
@@ -184,7 +183,7 @@ ul {
 .post-tag {
   height: 20px;
   z-index: 5;
-  background-color: rgba(23, 23, 224, .7);;
+  background-color: #5C45F1;
   color: #fff;
   font-size: 10px;
   line-height: 20px;
@@ -402,12 +401,18 @@ a:visited {
   color: black;
 }
 .logo {
-  color: rgba(23, 23, 224, .9);;
+  color: slateblue;
   margin-right: 3%;
+  padding-left: 3%;
 }
 .source {
   color: black;
 }
 .card {
   margin: 1%;
+}
+.navbar .navbar-brand {
+  color: slateblue;
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+  font-size: 25px;
 }
