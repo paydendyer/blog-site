@@ -84,7 +84,6 @@ ul {
 
 .main {
   height: 100%;
-  padding-top: 3%;
   width: 100%;
 }
 
@@ -252,7 +251,6 @@ ul {
 .content-item-info {
   flex: 1;
   padding: 15px 20px;
-  display: flex;
   flex-direction: column;
 }
 
@@ -415,4 +413,7 @@ a:visited {
   color: slateblue;
   font-family: Futura, "Trebuchet MS", Arial, sans-serif;
   font-size: 25px;
+}
+.navbar {
+  background-color: white;
 }
