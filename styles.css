@@ -330,68 +330,6 @@ input:focus {
   /* Set solid border of size 1px and of a color of your choice */
 
 }
-
-@media screen and (max-width: 800px) {
-
-  header {
-    padding: 0 30px;
-  }
-
-  nav{
-    padding: 0 12px;
-  }
-
-  nav select {
-    display: inline-block;
-    font-size: 16px;
-    padding: 5px;
-  }
-
-  .nav-link-list {
-    display: none;
-  }
-
-  .content-list-item {
-    height: 35vh;
-  }
-
-  .spotlight-container {
-    background-color: #F0F0F0;
-    box-sizing: border-box;
-    padding: 30px 0;
-    display: flex;
-    justify-content: center;
-    height: auto;
-  }
-  
-  .spotlight-list {
-    display: flex;
-    /* Change flex-direction to match HTML content order */
-    flex-direction: column-reverse;
-    height: 100%;
-    margin: 0;
-    padding: 0;
-    width: 1000px;
-  }
-  
-  .spotlight-item {
-    display: none;
-  }
-
-  .spotlight-item-sm {
-    display: flex;
-    height: 35vh;
-  }
-
-  .spotlight-item-sm:nth-child(n+2) {
-    margin: 10px 0;
-  }
-
-  .spotlight-item-sm .content-item-info {
-    background-color: #FFF;
-  }
-
-}
 a {
   text-decoration: none;
 }
@@ -408,6 +346,7 @@ a:visited {
 }
 .card {
   margin: 1%;
+    padding: 10px;
 }
 .navbar .navbar-brand {
   color: slateblue;
@@ -417,3 +356,17 @@ a:visited {
 .navbar {
   background-color: white;
 }
+@media only screen and (max-width : 480px) {
+  .spotlight-container {
+    display: inline;
+  }
+  .content-item-image-container {
+    display: none;
+  }
+    .main-content {
+      display: inline;
+    }
+    .content-list {
+      width: 20rem;
+    }
+  }
